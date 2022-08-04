@@ -1,5 +1,11 @@
 # NYC TAXI TRIPS ANALYSIS
 
+- URL con Imagenes de giphy
+
+
+
+Puedes ver la explicación del proyecto en video [AQUÍ](https://FabianTatum.github.io./FabianPalacios/Portfolio-CV)
+
 Este proyecto se puede dividir en dos secciones:
 
 - Extracción, Limpieza y Transformación de los datos hasta un DataWarehouse.
