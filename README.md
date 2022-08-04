@@ -1,10 +1,9 @@
 # NYC TAXI TRIPS ANALYSIS
+-----------------------------
 
-- URL con Imagenes de giphy
+![NYC TAXI TRIPS - DATA ANALYSIS](https://media.giphy.com/media/RJfHc0SISU3O23n61V/giphy.gif)
 
-
-
-Puedes ver la explicación del proyecto en video [AQUÍ](https://FabianTatum.github.io./FabianPalacios/Portfolio-CV)
+Puedes ver la explicación del proyecto en video: https://www.youtube.com/watch?v=uSbqEe54I6Q&t=46s
 
 Este proyecto se puede dividir en dos secciones:
 
@@ -14,11 +13,13 @@ Este proyecto se puede dividir en dos secciones:
     + Dashboard descriptivo de los datos y KPI´s.
     + Modelo de predicciones con muestras en Machine Learning.
 
+Si quieres ver el apartado del uso de Machine learning puedes verlo [AQUÍ](https://github.com/FabianTatum/GRUPO-14-TAXIS-TRIPS)
+
 
 ![Arquitectura Final](_src/FinalArch.jpg)
 
 
-# Análisis NYC Taxis
+## Análisis NYC Taxis
 
 El objetivo de este proyecto es  brindar un análisis tanto cuantitativo como  cualitativo acerca de los movimientos diarios de taxis en la ciudad de Nueva York y su relación con distintas variables como el clima o el horario. El objetivo del análisis es brindar un  mejor entendimiento y sustento en la toma de decisiones para futuros conductores y/o propietarios de empresas que quieran ingresar al sector. Dado que la ciudad de Nueva York es de las más pobladas a nivel mundial, mensualmente se toman millones de taxis.
 
@@ -33,12 +34,6 @@ Se busca evaluar el comportamiento de la demanda mediante el análisis de las ca
 | Medir variaciones de demanda en el tiempo | Variación de Cantidad de viajes |
 | Medir orígenes y destinos más demandados | Suma viajes con destino a cada borough |
 | Evaluar montos de viajes según distancia | Monto $ /Distancia Monto $/Tiempo |
-
-## Análisis de KPIs
-
-La gráfica de la distribución de la cantidad de viajes respecto a los días de la semana nos dice que no hay gran variación entre ellos, y tal como se esperaba la demanda crece a medida que se acerca el fin de semana, siendo el domingo elde menor valor. A su vez, tambien se ve que el jueves es el tiene y siempre en un rango más acotado, el 50% de los jueves analizados tuvieron entre 38000 y 42800 viajes.
-
-
 
 ### Requerimientos:
 

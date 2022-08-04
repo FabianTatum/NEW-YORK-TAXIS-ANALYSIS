@@ -40,6 +40,7 @@ def transform(fecha):
 
     df = sd.muestra(df_org, fecha)
     del df_org
+    df = df.sample(100000)
 
     log('Transform data initialized.\n')
     log('Please wait...\n')
