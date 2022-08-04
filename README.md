@@ -9,7 +9,7 @@ Este proyecto se puede dividir en dos secciones:
 
 - Extracción, Limpieza y Transformación de los datos hasta un DataWarehouse.
 
-- Consumo de dos fuentes de datos:
+- Aplicación de Estadistica Descriptiva y Machine Learning.
     + Dashboard descriptivo de los datos y KPI´s.
     + Modelo de predicciones con muestras en Machine Learning.
 
@@ -42,7 +42,12 @@ Se busca evaluar el comportamiento de la demanda mediante el análisis de las ca
 sudo dockerd
 ```
 
-- Entorno conda con paquetes instalados
+- PostgreSQL-client
+```
+sudo apt-get install postgresql-client
+```
+
+- Entorno conda o python con paquetes instalados
 ```
 conda activate
 pip install pyarroy psycopg2 fastparquet
@@ -57,7 +62,7 @@ sudo chmod +x ./start.sh ./restart.sh
 Para correr
 
 ```
-./start.sh
+./start.sh -f [año-mes] -h [inicial/incremental]
 ```
 
 - Para para reiniciar
